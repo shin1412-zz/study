@@ -9,7 +9,7 @@ import UIKit
 
 class People {
     let city: String
-    var user: User?
+    weak var user: User?
     
     init(city: String) {
         self.city = city
